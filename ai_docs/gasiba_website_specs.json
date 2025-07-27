@@ -1,0 +1,476 @@
+{
+  "project": {
+    "name": "Fundación GASIBA GI Website",
+    "description": "Sitio web completo para la Fundación GASIBA GI con HTML, CSS y JavaScript puro",
+    "version": "1.0.0",
+    "technologies": ["HTML5", "CSS3", "JavaScript ES6+"],
+    "hosting": "Hosting compartido (Hostinger compatible)"
+  },
+  
+  "brand_identity": {
+    "colors": {
+      "primary": {
+        "blue_deep": "#003366",
+        "green_nature": "#339966"
+      },
+      "accent": {
+        "yellow_sincere": "#FFCC00",
+        "orange_cta": "#E67E22"
+      },
+      "neutral": {
+        "white": "#FFFFFF",
+        "light_gray": "#F2F2F2",
+        "dark_carbon": "#333333"
+      }
+    },
+    "typography": {
+      "primary_font": "Noto Sans",
+      "secondary_font": "EB Garamond",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=EB+Garamond:wght@400;500&display=swap",
+      "hierarchy": {
+        "h1": { "size": "3rem", "weight": "700", "color": "#333333" },
+        "h2": { "size": "2.25rem", "weight": "700", "color": "#333333" },
+        "h3": { "size": "1.5rem", "weight": "600", "color": "#333333" },
+        "h4": { "size": "1.125rem", "weight": "400", "color": "#333333" },
+        "body": { "size": "1rem", "weight": "400", "color": "#333333" },
+        "cta": { "size": "1.125rem", "weight": "700", "color": "#FFFFFF" }
+      }
+    }
+  },
+
+  "file_structure": {
+    "root": [
+      "index.html",
+      "css/style.css",
+      "js/script.js",
+      "img/",
+      "favicon.ico"
+    ],
+    "images": {
+      "logo": "img/logo-gasiba.png",
+      "hero": "img/hero-ninos-sonriendo.jpg",
+      "about": "img/familia-empoderada.jpg",
+      "programs": [
+        "img/salud-bienestar.svg",
+        "img/educacion-inclusiva.svg",
+        "img/apoyo-familias.svg",
+        "img/desarrollo-comunitario.svg"
+      ],
+      "impact": [
+        "img/testimonio-maria.jpg",
+        "img/testimonio-carlos.jpg",
+        "img/impacto-educacion.jpg",
+        "img/impacto-salud.jpg"
+      ],
+      "projects": [
+        "img/cmci-proyecto.jpg",
+        "img/cdi-proyecto.jpg",
+        "img/creciendo-juntos.jpg"
+      ]
+    }
+  },
+
+  "website_structure": {
+    "navigation": {
+      "logo": {
+        "text": "Fundación GASIBA GI",
+        "image": "img/logo-gasiba.png",
+        "alt": "Logo Fundación GASIBA GI"
+      },
+      "menu_items": [
+        { "text": "Inicio", "href": "#inicio", "id": "nav-inicio" },
+        { "text": "Quiénes Somos", "href": "#quienes-somos", "id": "nav-quienes" },
+        { "text": "Programas", "href": "#programas", "id": "nav-programas" },
+        { "text": "Proyectos Futuros", "href": "#proyectos", "id": "nav-proyectos" },
+        { "text": "Impacto", "href": "#impacto", "id": "nav-impacto" },
+        { "text": "Cómo Ayudar", "href": "#ayudar", "id": "nav-ayudar" },
+        { "text": "Contacto", "href": "#contacto", "id": "nav-contacto" }
+      ]
+    },
+
+    "sections": {
+      "hero": {
+        "id": "inicio",
+        "title": "Transformamos Vidas. Construimos Futuro.",
+        "subtitle": "Juntos hacemos posible la inclusión social y el desarrollo humano de quienes más lo necesitan",
+        "background_image": "img/hero-ninos-sonriendo.jpg",
+        "cta_buttons": [
+          { "text": "Donar Ahora", "href": "#donar", "class": "btn-primary", "type": "cta" },
+          { "text": "Conoce Nuestros Programas", "href": "#programas", "class": "btn-secondary", "type": "navigation" }
+        ],
+        "stats": [
+          { "number": "+10,000", "label": "personas beneficiadas", "icon": "👥" },
+          { "number": "3", "label": "cantones con presencia activa", "icon": "📍" },
+          { "number": "+200", "label": "líderes comunitarios aliados", "icon": "🤝" }
+        ]
+      },
+
+      "about": {
+        "id": "quienes-somos",
+        "title": "Quiénes Somos",
+        "content": {
+          "mission": {
+            "title": "Misión",
+            "text": "Proponer, ejecutar y promover programas integrales que impulsen el desarrollo humano, la inclusión social, la movilidad económica ascendente y la protección de los derechos de niñas, niños, adolescentes, jóvenes, adultos, adultos mayores y personas con discapacidad. Lo hacemos a través de acciones solidarias, articuladas y sostenibles, fortaleciendo la economía popular, la corresponsabilidad familiar y el bienestar colectivo."
+          },
+          "vision": {
+            "title": "Visión",
+            "text": "Ser una organización referente a nivel nacional por su compromiso con la transformación social, promoviendo la inclusión económica, social y cultural de los grupos de atención prioritaria, en especial aquellos que se encuentran en situación de pobreza y vulnerabilidad, garantizando el ejercicio pleno de sus derechos a lo largo del ciclo de vida."
+          },
+          "description": {
+            "text": "La Fundación GASIBA GI es una organización sin fines de lucro comprometida con el desarrollo integral de los sectores más vulnerables de la sociedad. Contamos con presencia activa en los cantones de Guayaquil, Durán y Milagro, donde ejecutamos programas y proyectos sociales orientados a mejorar la calidad de vida de la población en situación de pobreza, riesgo o exclusión."
+          },
+          "values": [
+            { "name": "Solidaridad", "description": "Actuamos con empatía y compromiso hacia quienes más lo necesitan." },
+            { "name": "Equidad", "description": "Promovemos oportunidades justas para todos, sin distinción." },
+            { "name": "Respeto", "description": "Reconocemos la dignidad y los derechos de cada persona." },
+            { "name": "Inclusión", "description": "Valoramos y acogemos la diversidad humana en todas sus expresiones." },
+            { "name": "Corresponsabilidad", "description": "Fomentamos la participación activa de las familias, comunidades e instituciones." },
+            { "name": "Resiliencia", "description": "Apoyamos a las personas a reconstruir sus vidas frente a la adversidad." },
+            { "name": "Transparencia", "description": "Actuamos con ética y rendición de cuentas en todos nuestros procesos." }
+          ]
+        },
+        "image": "img/familia-empoderada.jpg"
+      },
+
+      "programs": {
+        "id": "programas",
+        "title": "Nuestros Programas",
+        "subtitle": "Trabajamos en múltiples frentes para crear un impacto integral en nuestras comunidades",
+        "programs_list": [
+          {
+            "id": 1,
+            "title": "Desarrollo Integral",
+            "description": "Crear y promocionar programas y servicios de desarrollo integral.",
+            "icon": "🌱"
+          },
+          {
+            "id": 2,
+            "title": "Atención Integral del Ciclo de Vida",
+            "description": "Atención integral de la población a lo largo de su ciclo de vida, buscando retirarlos de las calles y la erradicación de la mendicidad.",
+            "icon": "👨‍👩‍👧‍👦"
+          },
+          {
+            "id": 3,
+            "title": "Prevención y Protección",
+            "description": "Charlas y acciones para prevenir la violación de derechos y garantizar la protección especial de la población vulnerable.",
+            "icon": "🛡️"
+          },
+          {
+            "id": 4,
+            "title": "Inclusión Económica",
+            "description": "Contribuir a la inclusión económica y a la movilidad social mediante la generación de capacidades y oportunidades.",
+            "icon": "💼"
+          },
+          {
+            "id": 5,
+            "title": "Protección Especial",
+            "description": "Actividades de protección, inclusión y movilidad social para grupos de atención prioritaria.",
+            "icon": "🤗"
+          },
+          {
+            "id": 6,
+            "title": "Capacitación Productiva",
+            "description": "Charlas informativas sobre servicios para promover capacidades y oportunidades productivas.",
+            "icon": "📚"
+          },
+          {
+            "id": 7,
+            "title": "Economía Popular y Solidaria",
+            "description": "Asesorar y desarrollar oportunidades para emprendimientos productivos individuales, familiares y asociativos.",
+            "icon": "🏪"
+          },
+          {
+            "id": 8,
+            "title": "Apoyo a Migrantes",
+            "description": "Actividades para apoyar a los grupos de personas migrantes internos.",
+            "icon": "🚶‍♂️"
+          },
+          {
+            "id": 9,
+            "title": "Bienestar Integral",
+            "description": "Campañas de información y respeto a la integridad física, psicológica, emocional y espiritual.",
+            "icon": "💙"
+          },
+          {
+            "id": 10,
+            "title": "Crianza Positiva",
+            "description": "Fomentar la cultura de crianzas positivas en la primera infancia.",
+            "icon": "👶"
+          },
+          {
+            "id": 11,
+            "title": "Espacios de Ocio",
+            "description": "Contribuir con espacios de ocio para niños, niñas y adolescentes fomentando valores.",
+            "icon": "🎨"
+          },
+          {
+            "id": 12,
+            "title": "Seguridad Alimentaria",
+            "description": "Promover proyectos de seguridad y soberanía alimentaria.",
+            "icon": "🍎"
+          },
+          {
+            "id": 13,
+            "title": "Prevención de Violencia de Género",
+            "description": "Promover proyectos para la prevención de violencia de género.",
+            "icon": "✋"
+          },
+          {
+            "id": 14,
+            "title": "Movilidad Humana",
+            "description": "Impulsar proyectos relacionados con la movilidad humana.",
+            "icon": "🌍"
+          }
+        ]
+      },
+
+      "future_projects": {
+        "id": "proyectos",
+        "title": "Proyectos Futuros",
+        "subtitle": "Ampliando nuestro impacto social para las nuevas generaciones",
+        "intro": "Con base en nuestra experiencia territorial en Guayaquil, Durán y Milagro, proyectamos la ampliación de nuestro impacto social a través de:",
+        "projects": [
+          {
+            "id": "cmci",
+            "title": "Centros Municipales de Cuidado Infantil (CMCI)",
+            "description": "Expandir el modelo de atención integral para niñas y niños de 1 a 3 años, brindándoles cuidado, alimentación, estimulación temprana y entornos seguros mientras sus familias trabajan o estudian.",
+            "requirements": [
+              "Infraestructura especializada",
+              "Talento humano capacitado",
+              "Materiales didácticos",
+              "Soporte técnico continuo"
+            ],
+            "image": "img/cmci-proyecto.jpg",
+            "icon": "🏫"
+          },
+          {
+            "id": "cdi",
+            "title": "Centros de Desarrollo Infantil (CDI)",
+            "description": "Implementar unidades especializadas de atención a la primera infancia en sectores urbanos y rurales, bajo el modelo de corresponsabilidad familiar y comunitaria.",
+            "services": [
+              "Servicios pedagógicos",
+              "Servicios nutricionales",
+              "Servicios psicoafectivos",
+              "Articulación con redes locales de salud y protección"
+            ],
+            "image": "img/cdi-proyecto.jpg",
+            "icon": "🌟"
+          },
+          {
+            "id": "creciendo_juntos",
+            "title": "Creciendo Juntos",
+            "description": "Respuesta comunitaria, integral y preventiva destinada a crear entornos protectores para niños, niñas y adolescentes.",
+            "objectives": [
+              "Garantizar entornos protectores para niños, niñas y adolescentes entre 6 y 15 años",
+              "Prevenir vinculación con grupos delictivos, redes de violencia o abandono escolar",
+              "Fortalecer capacidades familiares y comunitarias de cuidado y protección",
+              "Brindar oportunidades de desarrollo educativo, artístico, cultural y psicosocial"
+            ],
+            "image": "img/creciendo-juntos.jpg",
+            "icon": "🤝"
+          }
+        ],
+        "call_to_action": "Estos proyectos están en fase de diseño y búsqueda de recursos. Requieren el respaldo de instituciones aliadas, organismos cooperantes, empresas socialmente responsables y personas solidarias que deseen contribuir a la construcción de un futuro más justo para las nuevas generaciones."
+      },
+
+      "impact": {
+        "id": "impacto",
+        "title": "Nuestro Impacto",
+        "subtitle": "Transformando vidas, una historia a la vez",
+        "testimonials": [
+          {
+            "name": "María González",
+            "location": "Guayaquil",
+            "photo": "img/testimonio-maria.jpg",
+            "quote": "Gracias al apoyo de la fundación, mi hijo pudo acceder a programas educativos que transformaron su futuro. Ahora tiene nuevas oportunidades.",
+            "program": "Educación Inclusiva"
+          },
+          {
+            "name": "Carlos Mendoza",
+            "location": "Milagro",
+            "photo": "img/testimonio-carlos.jpg",
+            "quote": "El programa de economía popular me ayudó a establecer mi pequeño negocio. Ahora puedo sostener a mi familia con dignidad.",
+            "program": "Economía Popular y Solidaria"
+          }
+        ],
+        "metrics": [
+          {
+            "category": "Educación",
+            "description": "Fomentamos el aprendizaje integral y el desarrollo de habilidades",
+            "image": "img/impacto-educacion.jpg",
+            "icon": "📖"
+          },
+          {
+            "category": "Salud",
+            "description": "Promovemos el bienestar físico y mental de nuestras comunidades",
+            "image": "img/impacto-salud.jpg",
+            "icon": "❤️"
+          },
+          {
+            "category": "Desarrollo Comunitario",
+            "description": "Fortalecemos el tejido social y la participación ciudadana",
+            "image": "img/impacto-comunidad.jpg",
+            "icon": "🏘️"
+          },
+          {
+            "category": "Apoyo a Familias",
+            "description": "Brindamos herramientas para el fortalecimiento familiar",
+            "image": "img/impacto-familias.jpg",
+            "icon": "👪"
+          }
+        ]
+      },
+
+      "how_to_help": {
+        "id": "ayudar",
+        "title": "Cómo Ayudar",
+        "subtitle": "Tu apoyo marca la diferencia en miles de vidas",
+        "help_options": [
+          {
+            "type": "donation",
+            "title": "Haz una Donación",
+            "description": "Tu apoyo financiero nos permite expandir nuestros programas y llegar a más familias necesitadas.",
+            "icon": "💝",
+            "cta": "Donar Ahora",
+            "color": "#E67E22"
+          },
+          {
+            "type": "volunteer",
+            "title": "Únete como Voluntario",
+            "description": "Comparte tu tiempo y habilidades trabajando directamente con nuestras comunidades.",
+            "icon": "🙋‍♀️",
+            "cta": "Ser Voluntario",
+            "color": "#339966"
+          },
+          {
+            "type": "partnership",
+            "title": "Alianza Estratégica",
+            "description": "Si representas una empresa u organización, únete a nuestros proyectos de impacto social.",
+            "icon": "🤝",
+            "cta": "Crear Alianza",
+            "color": "#003366"
+          },
+          {
+            "type": "newsletter",
+            "title": "Mantente Informado",
+            "description": "Suscríbete a nuestro boletín para conocer nuestras actividades y logros.",
+            "icon": "📧",
+            "cta": "Suscribirse",
+            "color": "#FFCC00"
+          }
+        ]
+      },
+
+      "contact": {
+        "id": "contacto",
+        "title": "Contáctanos",
+        "subtitle": "Estamos aquí para responder tus preguntas y recibir tu apoyo",
+        "contact_info": {
+          "address": "Milagro, Ecuador",
+          "email": "fundaciongasiba@gmail.com",
+          "phone": "0960193518",
+          "whatsapp": "0960193518",
+          "instagram": "@fundaciongasibagi.ec",
+          "instagram_url": "https://instagram.com/fundaciongasibagi.ec"
+        },
+        "form_fields": [
+          { "name": "nombre", "type": "text", "label": "Nombre Completo", "required": true },
+          { "name": "email", "type": "email", "label": "Correo Electrónico", "required": true },
+          { "name": "telefono", "type": "tel", "label": "Teléfono", "required": false },
+          { "name": "asunto", "type": "select", "label": "Asunto", "required": true, 
+            "options": [
+              "Información general",
+              "Donaciones",
+              "Voluntariado",
+              "Alianzas estratégicas",
+              "Solicitar apoyo",
+              "Otro"
+            ]
+          },
+          { "name": "mensaje", "type": "textarea", "label": "Mensaje", "required": true }
+        ]
+      }
+    }
+  },
+
+  "interactive_features": {
+    "smooth_scroll": {
+      "enabled": true,
+      "offset": 80
+    },
+    "mobile_menu": {
+      "hamburger_animation": true,
+      "overlay": true
+    },
+    "form_validation": {
+      "real_time": true,
+      "error_messages": {
+        "required": "Este campo es obligatorio",
+        "email": "Ingrese un correo electrónico válido",
+        "phone": "Ingrese un número de teléfono válido"
+      }
+    },
+    "animations": {
+      "fade_in_on_scroll": true,
+      "hover_effects": true,
+      "loading_states": true
+    },
+    "counters": {
+      "animated": true,
+      "trigger_on_scroll": true
+    }
+  },
+
+  "seo_meta": {
+    "title": "Fundación GASIBA GI - Transformamos Vidas, Construimos Futuro",
+    "description": "Organización sin fines de lucro comprometida con el desarrollo integral de sectores vulnerables en Guayaquil, Durán y Milagro. Programas de inclusión social, educación y apoyo familiar.",
+    "keywords": "fundación, Ecuador, inclusión social, desarrollo humano, Guayaquil, Durán, Milagro, programas sociales, primera infancia, educación",
+    "author": "Fundación GASIBA GI",
+    "og_title": "Fundación GASIBA GI - Transformamos Vidas, Construimos Futuro",
+    "og_description": "Únete a nuestra misión de transformar vidas a través de programas integrales de desarrollo humano e inclusión social en Ecuador.",
+    "og_image": "img/og-image.jpg",
+    "twitter_card": "summary_large_image"
+  },
+
+  "accessibility": {
+    "wcag_compliance": "AA",
+    "features": [
+      "Navegación por teclado completa",
+      "Texto alternativo en todas las imágenes",
+      "Contraste de color adecuado",
+      "Estructura semántica HTML5",
+      "Etiquetas de formulario explícitas",
+      "Skip links para navegación",
+      "Texto redimensionable hasta 200%"
+    ],
+    "aria_labels": true,
+    "focus_indicators": true
+  },
+
+  "performance": {
+    "optimization": [
+      "Imágenes lazy loading",
+      "CSS y JS minificados",
+      "Recursos críticos inline",
+      "Preload de fuentes importantes",
+      "Optimización de Core Web Vitals"
+    ],
+    "target_metrics": {
+      "lcp": "< 2.5s",
+      "fid": "< 100ms",
+      "cls": "< 0.1"
+    }
+  },
+
+  "responsive_design": {
+    "approach": "Mobile First",
+    "breakpoints": {
+      "mobile": "320px - 768px",
+      "tablet": "769px - 1024px",
+      "desktop": "1025px+"
+    },
+    "grid_system": "CSS Grid + Flexbox",
+    "touch_friendly": true
+  }
+}
