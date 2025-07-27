@@ -14,6 +14,10 @@ El sitio web ha sido desarrollado utilizando tecnologías web puras (HTML, CSS, 
 
 Este proyecto está configurado con un flujo de trabajo de Integración y Despliegue Continuo (CI/CD) a través de GitHub Actions. Cualquier `push` a la rama `main` despliega automáticamente los cambios al servidor de producción, asegurando que el sitio esté siempre actualizado.
 
+## **Nota de Investigación y Desarrollo por IA**
+
+Este sitio web es un proyecto de investigación y desarrollo que explora las capacidades de la Inteligencia Artificial en el proceso de creación de sitios web básicos y limpios. Ha sido generado por IA en un entorno de desarrollo (VS Code) y su despliegue automatizado ha sido validado mediante el uso de la herramienta GEMINI CLI. El objetivo es demostrar un desarrollo optimizado, con un diseño dinámico y rápido de UX/UI, utilizando tecnologías web puras para un rendimiento excepcional.
+
 ---
 
 ## **Créditos**
