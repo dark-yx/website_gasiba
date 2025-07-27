@@ -721,9 +721,27 @@ section {
         gap: 2rem;
     }
 
-    .hero-cta .btn-primary {
-        margin-bottom: 1rem; /* Espacio entre botones en móvil */
+    .hero-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    gap: 1rem; /* Espacio entre los botones */
+}
+
+@media (max-width: 768px) {
+    .hero-cta {
+        flex-direction: column; /* Apilar los botones en pantallas pequeñas */
     }
+
+    .hero-cta .btn-primary {
+        margin-bottom: 1rem; /* Espacio entre el botón primario y el secundario */
+    }
+
+    .hero-cta .btn-secondary {
+        margin-left: 0; /* Eliminar el margen izquierdo en móvil */
+    }
+}
 
     .hero-cta .btn-secondary {
         margin-left: 0; /* Eliminar margen izquierdo en móvil */
