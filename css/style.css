@@ -681,9 +681,10 @@ section {
 
 @media (max-width: 768px) {
     :root {
-        --h1-size: 2.5rem;
-        --h2-size: 2rem;
-        --h3-size: 1.3rem;
+        --h1-size: 2.2rem; /* Reducir tamaño del H1 en móvil */
+        --h2-size: 1.8rem;
+        --h3-size: 1.2rem;
+        --cta-size: 1rem; /* Reducir tamaño del texto de los botones */
     }
 
     section { padding: 3rem 0; }
@@ -722,26 +723,13 @@ section {
     }
 
     .hero-cta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
-    gap: 1rem; /* Espacio entre los botones */
-}
-
-@media (max-width: 768px) {
-    .hero-cta {
         flex-direction: column; /* Apilar los botones en pantallas pequeñas */
+        gap: 1rem; /* Espacio entre los botones apilados */
     }
 
     .hero-cta .btn-primary {
-        margin-bottom: 1rem; /* Espacio entre el botón primario y el secundario */
+        margin-bottom: 0; /* Resetear margen inferior si ya está en el gap */
     }
-
-    .hero-cta .btn-secondary {
-        margin-left: 0; /* Eliminar el margen izquierdo en móvil */
-    }
-}
 
     .hero-cta .btn-secondary {
         margin-left: 0; /* Eliminar margen izquierdo en móvil */

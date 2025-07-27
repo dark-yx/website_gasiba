@@ -31,4 +31,14 @@ Antes de realizar cualquier cambio significativo, ajuste o refactorización en e
 
 Este paso es fundamental para mantener la alta calidad del código y la estabilidad del sitio web. La diligencia en la investigación previa ahorra tiempo en la depuración y previene problemas a largo plazo.
 
+## **3. Actualización y Despliegue Continuo**
+
+Después de realizar cualquier cambio en el código, es **obligatorio** seguir el flujo de trabajo de Git para asegurar que el repositorio y el sitio web en producción estén siempre actualizados:
+
+1.  **Preparar Cambios:** Ejecutar `git add .` para añadir todos los archivos modificados y nuevos al área de preparación.
+2.  **Confirmar Cambios:** Ejecutar `git commit -m "Mensaje descriptivo del cambio"` para guardar los cambios en el historial local.
+3.  **Desplegar a Producción:** Ejecutar `git push origin main` para subir los cambios al repositorio remoto y activar el flujo de CI/CD, que desplegará automáticamente el sitio web en el hosting.
+
+**El incumplimiento de este procedimiento resultará en que los cambios no se reflejen en el sitio en vivo.**
+
 Debes siempre seguir los lineiamientos del GEMINI.md y del gasiba_website_specs.json
