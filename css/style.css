@@ -721,6 +721,14 @@ section {
         gap: 2rem;
     }
 
+    .hero-cta .btn-primary {
+        margin-bottom: 1rem; /* Espacio entre botones en móvil */
+    }
+
+    .hero-cta .btn-secondary {
+        margin-left: 0; /* Eliminar margen izquierdo en móvil */
+    }
+
     .contact-wrapper {
         grid-template-columns: 1fr;
         padding: 2rem;

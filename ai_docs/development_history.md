@@ -60,4 +60,17 @@ Este archivo registra todos los cambios, acciones y actualizaciones realizadas e
 *   Desarrollo de la interactividad con JavaScript, incluyendo la navegación móvil, el desplazamiento suave y la validación de formularios.
 *   Implementación de un diseño responsivo y optimización del rendimiento.
 *   Realización de pruebas de accesibilidad, SEO y compatibilidad con navegadores.
-**Tareas Vinculadas:** [Task 4](./tasks/task_04_html_structure.md) a [Task 25](./tasks/task_25_final_documentation.md)ok,pero dbes tnr en cuenta que este es un sitio que ya tiene su carpeta defindida con su dominio que es gasiba.org y que no usa librerias ni dependiencias sino puro html, css y javascript
+**Tareas Vinculadas:** [Task 4](./tasks/task_04_html_structure.md) a [Task 25](./tasks/task_25_final_documentation.md)
+
+---
+
+**Fecha:** 2025-07-27
+**Agente:** Gemini
+**Acción:** Ajustes finales y actualización de documentación.
+**Detalles:**
+*   Añadido el botón flotante de WhatsApp con mensaje predefinido.
+*   Ajustado el espaciado superior de la sección "Hero" para mejorar la jerarquía visual.
+*   Ajustado el espaciado entre los botones CTA en la vista móvil.
+*   Incluidos los créditos de "Desarrollado por WEBLIFETECH S.A.S." en el pie de página.
+*   Añadida una nota de investigación y desarrollo por IA en el `README.md`.
+**Tareas Vinculadas:** N/A (Ajustes post-desarrollo principal)
