@@ -28,4 +28,7 @@ Antes de realizar cualquier cambio significativo, ajuste o refactorización en e
 *   **Seguir las Mejores Prácticas:** Mantener el código alineado con los estándares más actuales de la industria.
 *   **Documentar el Código:** Añadir comentarios claros y precisos donde sea necesario, explicando el *porqué* de una implementación compleja.
 
+
 Este paso es fundamental para mantener la alta calidad del código y la estabilidad del sitio web. La diligencia en la investigación previa ahorra tiempo en la depuración y previene problemas a largo plazo.
+
+Debes siempre seguir los lineiamientos del GEMINI.md y del gasiba_website_specs.json

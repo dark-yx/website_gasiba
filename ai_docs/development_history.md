@@ -60,4 +60,4 @@ Este archivo registra todos los cambios, acciones y actualizaciones realizadas e
 *   Desarrollo de la interactividad con JavaScript, incluyendo la navegación móvil, el desplazamiento suave y la validación de formularios.
 *   Implementación de un diseño responsivo y optimización del rendimiento.
 *   Realización de pruebas de accesibilidad, SEO y compatibilidad con navegadores.
-**Tareas Vinculadas:** [Task 4](./tasks/task_04_html_structure.md) a [Task 25](./tasks/task_25_final_documentation.md)
+**Tareas Vinculadas:** [Task 4](./tasks/task_04_html_structure.md) a [Task 25](./tasks/task_25_final_documentation.md)ok,pero dbes tnr en cuenta que este es un sitio que ya tiene su carpeta defindida con su dominio que es gasiba.org y que no usa librerias ni dependiencias sino puro html, css y javascript
