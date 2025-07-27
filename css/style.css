@@ -227,14 +227,15 @@ section {
 /* --- Hero Section --- */
 .hero-section {
     position: relative;
-    min-height: 100vh;
+    min-height: 100vh; /* Mantener la altura mínima para ocupar toda la pantalla */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: var(--color-neutral-white);
-    padding-top: var(--header-height);
+    padding-top: calc(var(--header-height) + 50px); /* Aumentar el espacio superior */
+    padding-bottom: 50px; /* Añadir un poco de padding inferior si es necesario */
     background: url('../img/hero-ninos-sonriendo.jpg') no-repeat center center/cover;
 }
 
