@@ -4,6 +4,17 @@ Este archivo registra todos los cambios, acciones y actualizaciones realizadas e
 
 ---
 
+**Fecha:** 2025-07-29
+**Agente:** Gemini
+**Acción:** Refactorización del diseño responsivo y optimización de rendimiento.
+**Detalles:**
+*   Se solucionó el desbordamiento horizontal en móviles ajustando las rejillas de CSS y añadiendo la meta etiqueta `viewport`.
+*   Se añadieron dimensiones explícitas (`width` y `height`) a todas las imágenes para mejorar la métrica CLS de PageSpeed.
+*   Se ajustó el tamaño de la fuente del título principal y el espaciado en la sección "Hero" para una mejor visualización en todos los dispositivos.
+**Tarea Vinculada:** [Task 16: Diseño Responsivo (Mobile-First)](./tasks/task_16_responsive_design.md)
+
+---
+
 **Fecha:** 2025-07-27
 **Agente:** Gemini
 **Acción:** Creación de la estructura de documentación del proyecto.
