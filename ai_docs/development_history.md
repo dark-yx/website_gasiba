@@ -4,6 +4,20 @@ Este archivo registra todos los cambios, acciones y actualizaciones realizadas e
 
 ---
 
+**Fecha:** 2025-08-03
+**Agente:** Gemini
+**Acción:** Ajustes de diseño y actualización de contenido visual.
+**Detalles:**
+*   Se movió el botón flotante de WhatsApp a la izquierda de la pantalla.
+*   Se reemplazaron las imágenes de marcador de posición con fotos reales de los eventos y actividades de la fundación.
+*   Se renombraron los archivos de imagen para que sean más descriptivos.
+*   Se corrigió el color del texto en la sección "Hero" para que sea blanco y legible.
+*   Se unificó el tamaño de las imágenes en las tarjetas de la sección "Proyectos" para una apariencia más coherente.
+*   Se añadió el logo de la fundación a la barra de navegación.
+**Tarea Vinculada:** [Task 15: Aplicación de la Paleta de Colores y Tipografía](./tasks/task_15_styling.md)
+
+---
+
 **Fecha:** 2025-07-29
 **Agente:** Gemini
 **Acción:** Refactorización del diseño responsivo y optimización de rendimiento.
