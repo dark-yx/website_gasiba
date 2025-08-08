@@ -130,6 +130,7 @@ body {
     z-index: 1000;
     transition: all 0.3s ease;
     padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header.scrolled {
@@ -908,103 +909,4 @@ body {
 .scroll-animate.animate {
     opacity: 1;
     transform: translateY(0);
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .about-grid,
-    .contact-grid,
-    .project-slide {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .header-content {
-        justify-content: space-between;
-    }
-
-    .nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: white;
-        flex-direction: column;
-        padding: 2rem;
-        box-shadow: var(--shadow-lg);
-        border-radius: 0 0 20px 20px;
-    }
-
-    .nav.active {
-        display: flex;
-    }
-
-    .mobile-menu-btn {
-        display: block;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-cta {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero-stats {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .section {
-        padding: 4rem 0;
-    }
-
-    .container {
-        padding: 0 1rem;
-    }
-
-    .project-slide {
-        padding: 2rem;
-        text-align: center;
-    }
-
-    .whatsapp-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 1.25rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        padding: 2rem 0;
-    }
-
-    .section-title {
-        font-size: 2rem;
-    }
-
-    .btn {
-        padding: 0.8rem 1.5rem;
-        font-size: 0.9rem;
-    }
-
-    .value-card,
-    .program-card,
-    .help-card {
-        padding: 1.5rem;
-    }
-
-    .contact-form {
-        padding: 1.5rem;
-    }
-
-    .testimonial-card {
-        padding: 1.5rem;
-    }
 }
